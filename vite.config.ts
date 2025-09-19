@@ -5,7 +5,7 @@ import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? '/-/' : '/',
+  base: process.env.GITHUB_ACTIONS ? '/Agricultural-Digital/' : '/',
   build: {
     sourcemap: 'hidden',
   },
