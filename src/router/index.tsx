@@ -50,7 +50,7 @@ const router = createBrowserRouter([
     ]
   }
 ], {
-  basename: '/-/'
+  basename: window.location.pathname.includes('/-/') ? '/-/' : '/'
 });
 
 const AppRouter: React.FC = () => {
