@@ -49,7 +49,9 @@ const router = createBrowserRouter([
       }
     ]
   }
-]);
+], {
+  basename: '/-/'
+});
 
 const AppRouter: React.FC = () => {
   return <RouterProvider router={router} />;
